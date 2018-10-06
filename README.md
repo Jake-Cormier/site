@@ -10,8 +10,8 @@ Steps taken for a quick and easy set up of the site
 ## S3
 
 In S3, the site is broken down into two buckets:
-	- **siteName**
-	- **subDomain.siteName**
+ - **siteName**
+ - **subDomain.siteName**
 
 The **subDomain.siteName** is a simple redirect bucket to **siteName**, to account for the user's query preference. The **siteName** holds all the objects of the site and was the routable endpoint of Route 53 before the use of CloudFront.
 
