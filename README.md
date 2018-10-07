@@ -34,6 +34,8 @@ Site logs were later added to monitor traffic via a **logs.siteName** bucket.
 
 An A-record for each bucket was created with a temporary alias to my **siteName** bucket endpoint. At the time of creation I had not setup a CloudFront distribution, which is why the endpoint was a temporary alias.
 
+Route 53 was used for the purchase and management of the **siteName** as well.
+
 ## CloudFront
 
 Origin Domain Name: **siteName** bucket endpoint
