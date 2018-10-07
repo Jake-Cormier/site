@@ -28,6 +28,7 @@ Bucket Policy
 	  }]
     }
 
+Site logs were later added to monitor traffic via a **logs.siteName** bucket.
 
 ## Route 53
 
